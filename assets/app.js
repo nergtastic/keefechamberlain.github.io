@@ -10,9 +10,9 @@ function hoverFrames(frames) {
         document.getElementById('frame4').style.backgroundSize = '100% 100%';
         console.log('hovering over frame 1');
     } else if (frames==2){
-        document.getElementById('frame1').style.background = 'url(./assets/img/yeti.png)';
+        document.getElementById('frame1').style.background = 'url(./assets/img/Yeti.png)';
         document.getElementById('frame1').style.backgroundPosition = '10% 60%';
-        document.getElementById('frame3').style.background = 'url(./assets/img/yeti.png)';
+        document.getElementById('frame3').style.background = 'url(./assets/img/Yeti.png)';
         document.getElementById('frame3').style.backgroundPosition = '92% 60%';
         document.getElementById('frame4').style.background = 'url(./assets/img/yeti2.jpg)';
         document.getElementById('frame4').style.backgroundPosition = '90% 60%';
@@ -50,7 +50,7 @@ function hoverFrames(frames) {
 function hoverOut() {
     document.getElementById('frame1').style.background = 'url(./assets/img/skipster.png)';
     document.getElementById('frame1').style.backgroundPosition = '45% 27%';
-    document.getElementById('frame2').style.background = 'url(./assets/img/yeti.png)';
+    document.getElementById('frame2').style.background = 'url(./assets/img/Yeti.png)';
     document.getElementById('frame2').style.backgroundPosition = '50% 60%';
     document.getElementById('frame3').style.background= 'url(./assets/img/frame3.jpg)';
     document.getElementById('frame3').style.backgroundPosition = '50% 22%';
