@@ -8,7 +8,6 @@ function hoverFrames(frames) {
         document.getElementById('frame4').style.background = 'url(./assets/img/experience.jpg)';
         document.getElementById('frame4').style.backgroundPosition = '45% 27%';
         document.getElementById('frame4').style.backgroundSize = '100% 100%';
-        console.log('hovering over frame 1');
     } else if (frames==2){
         document.getElementById('frame1').style.background = 'url(./assets/img/Yeti.png)';
         document.getElementById('frame1').style.backgroundPosition = '10% 60%';
@@ -17,7 +16,6 @@ function hoverFrames(frames) {
         document.getElementById('frame4').style.background = 'url(./assets/img/yeti2.jpg)';
         document.getElementById('frame4').style.backgroundPosition = '90% 60%';
         document.getElementById('frame4').style.backgroundSize = '350% 100%';
-        console.log('hovering over frame 2');
     } else if (frames==3){
         document.getElementById('frame1').style.background = 'url(./assets/img/illustration.jpg)';
         document.getElementById('frame1').style.backgroundPosition = '45% 27%';
@@ -28,7 +26,6 @@ function hoverFrames(frames) {
         document.getElementById('frame4').style.background= 'url(./assets/img/frame3.jpg)';
         document.getElementById('frame4').style.backgroundPosition = '100% 26%';
         document.getElementById('frame4').style.backgroundSize = '310% 125%';
-        console.log('hovering over frame 3');
     } else {
         document.getElementById('frame1').style.background = 'url(./assets/img/strip.jpg)';
         document.getElementById('frame1').style.backgroundPosition = '3% 40%';
@@ -42,7 +39,6 @@ function hoverFrames(frames) {
         document.getElementById('frame4').style.background = 'url(./assets/img/comics.jpg)';
         document.getElementById('frame4').style.backgroundPosition = '90% 60%';
         document.getElementById('frame4').style.backgroundSize = '100% 100%';
-        console.log('hovering over frame 4');
     }
 
 }
