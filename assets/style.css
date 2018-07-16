@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(193, 194, 189)
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#comicStrip{
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+#resume {
+    background-color: white;
+    color: rgba(0, 0, 0, .5);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#darkYeti {
+    background-color: #0067b6;
+    color: white;
+    font-family: "arial black";
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#frame1 {
+    background: url(./img/skipster.png); 
+    background-position: 45% 27%;
+}
+
+#frame2 {
+    background: url(./img/yeti.png); 
+    background-position: 50% 60%;
+}
+
+#frame3 {
+    background: url(./img/frame3.jpg); 
+    background-position: 50% 22%;
+    background-size: 310% 125%;
+}
+
+#frame4 {
+    background: url(./img/jack.jpg); 
+    background-size: 445%; 
+    background-position: 66% 65%
+}
+
+.comic-frame {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+}
+
+.title-text {
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.comic-frame:hover {
+    box-shadow: 0px 0px 20px 15px grey;
+}
+
+.icon-link {
+    width: 36px;
+    margin: 25px 25px 30px 25px;
+    color: white;
+    display: inline-block;
+}
+
+.icon-link-fa {
+    width: 36px;
+    margin: 30px 25px 300px 25px;
+    color: white;
+    display: inline-block;
+}
+
+.resume-item {
+    display: inline-block;
+    padding: 25px;
+    margin: 25px 100px;
+}
+
+.img-profile {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.img-yeti {
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.dyg-item {
+    display: inline-block;
+    padding: 25px;
+    margin: 50px 50px;
+}
