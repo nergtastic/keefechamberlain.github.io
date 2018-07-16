@@ -17,6 +17,10 @@ h3 {
     margin-bottom: 20px;
 }
 
+*:hover {
+    text-decoration: none;   
+}
+
 #comicStrip{
     padding-top: 100px;
     padding-bottom: 300px;
